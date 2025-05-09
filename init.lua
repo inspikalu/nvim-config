@@ -1,9 +1,3 @@
--- bread's neovim config
--- keymaps are in lua/config/mappings.lua
--- install a patched font & ensure your terminal supports glyphs
--- enjoy :D
-
--- auto install vim-plug and plugins, if not found
 local data_dir = vim.fn.stdpath('data')
 if vim.fn.empty(vim.fn.glob(data_dir .. '/site/autoload/plug.vim')) == 1 then
 	vim.cmd('silent !curl -fLo ' .. data_dir .. '/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim')

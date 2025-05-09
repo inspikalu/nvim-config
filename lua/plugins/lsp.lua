@@ -43,7 +43,7 @@ end
 mason_lspconfig.setup({
   ensure_installed = { 
     "lua_ls",
-    "tsserver",  -- This should be the correct name for TypeScript
+    "typescript-language-server",  -- This should be the correct name for TypeScript
     "rust_analyzer",
     "pyright"
   },
