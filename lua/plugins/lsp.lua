@@ -56,7 +56,6 @@ mason_lspconfig.setup({
         capabilities = cmp_nvim_lsp.default_capabilities()
       })
     end,
-    
     -- Lua-specific configuration
     ["lua_ls"] = function()
       lspconfig.lua_ls.setup({
@@ -69,17 +68,7 @@ mason_lspconfig.setup({
       })
     end,
 
-    -- TypeScript-specific configuration
-    ["tsserver"] = function()
-      lspconfig.tsserver.setup({
-        settings = {
-          completions = {
-            completeFunctionCalls = true
-          }
-        }
-      })
-    end
-  }
+}
 })
 
 -- Auto-completion setup
