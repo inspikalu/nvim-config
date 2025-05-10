@@ -33,6 +33,7 @@ map('n', '<A-0>', '<Cmd>BufferLast<CR>')
 map('n', '<A-p>', '<Cmd>BufferPin<CR>')
 
 -- windows - ctrl nav, fn resize
+map("n", "<C-a>", "ggVG")
 map("n", "<C-h>", "<C-w>h")
 map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")

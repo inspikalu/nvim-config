@@ -18,6 +18,7 @@
 - `<A-p>` - Pin/unpin buffer
 
 ## Window Management
+- `<C-a>` - Select all text
 - `<C-h>` - Move to left window
 - `<C-j>` - Move to bottom window
 - `<C-k>` - Move to top window
@@ -56,10 +57,11 @@
 
 ## LSP (Language Server Protocol)
 - `gd` - Go to definition
+- `K` - Hover documentation
 - `gr` - Show references
 - `<leader>rn` - Rename symbol
 - `<leader>ca` - Show code actions
-- `<leader>fd` - Show diagnostics
+- `<leader>fd` - Show diagnostics for current line
 
 ## Comments
 - `gcc` - Toggle line comment
@@ -81,6 +83,7 @@
 - `<leader>nn` - Toggle relative line numbers
 - `<leader>P` - Install plugins
 - `<leader>ma` - Quick make in directory of current buffer
+- `<leader>T` - Show git status
 
 ## Alpha Dashboard (Startup Screen)
 - `e` - New file
@@ -109,6 +112,17 @@
 - `<S-up>` - Preview page up
 - `<M-S-down>` - Preview down
 - `<M-S-up>` - Preview up
+
+## FZF Additional Keymaps
+- `ctrl-z` - Abort
+- `ctrl-u` - Unix line discard
+- `ctrl-f` - Half page down
+- `ctrl-b` - Half page up
+- `ctrl-a` - Beginning of line
+- `ctrl-e` - End of line
+- `alt-a` - Toggle all
+- `alt-g` - First item
+- `alt-G` - Last item
 
 ## Autocompletion
 - `<C-b>` - Scroll docs up
