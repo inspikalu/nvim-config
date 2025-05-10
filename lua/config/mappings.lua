@@ -89,7 +89,8 @@ map('n', 'gd', ':lua vim.lsp.buf.definition()<CR>')
 map('n', 'gr', ':lua vim.lsp.buf.references()<CR>')
 map('n', '<leader>rn', ':lua vim.lsp.buf.rename()<CR>')
 map('n', '<leader>ca', ':lua vim.lsp.buf.code_action()<CR>')
-map('n', '<leader>fd', ':lua vim.diagnostic.open_float()<CR>')
+-- map('n', '<leader>fd', ':lua vim.diagnostic.open_float()<CR>')
+map('n', '<leader>fd', ':lua vim.diagnostic.open_float(0, { scope = "line" })<CR>')
 
 map("n", "<leader>H", function() --toggle htop in term
     _G.htop:toggle()
