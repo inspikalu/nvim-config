@@ -92,7 +92,9 @@ map('n', '<leader>rn', ':lua vim.lsp.buf.rename()<CR>')
 map('n', '<leader>ca', ':lua vim.lsp.buf.code_action()<CR>')
 -- map('n', '<leader>fd', ':lua vim.diagnostic.open_float()<CR>')
 map('n', '<leader>fd', ':lua vim.diagnostic.open_float(0, { scope = "line" })<CR>')
-
+map("n", "<leader>fm", function() -- Format file with LSP
+  vim.lsp.buf.format()
+end)
 map("n", "<leader>H", function() --toggle htop in term
     _G.htop:toggle()
 end)

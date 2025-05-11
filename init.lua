@@ -36,6 +36,11 @@ Plug('hrsh7th/nvim-cmp') -- Autocompletion
 Plug('hrsh7th/cmp-nvim-lsp') -- LSP completion source
 Plug('hrsh7th/cmp-buffer') -- Buffer words completion
 Plug('hrsh7th/cmp-path') -- File paths completion
+Plug('edeneast/nightfox.nvim')
+
+-- Plugin for prettier
+Plug('jose-elias-alvarez/null-ls.nvim')
+Plug('nvim-lua/plenary.nvim')
 
 vim.call('plug#end')
 
@@ -61,6 +66,7 @@ require("plugins.treesitter")
 require("plugins.which-key")
 
 require("plugins.lsp")
+require("plugins.null-ls")
 
 -- load_theme()
 

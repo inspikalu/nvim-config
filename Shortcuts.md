@@ -62,6 +62,7 @@
 - `<leader>rn` - Rename symbol
 - `<leader>ca` - Show code actions
 - `<leader>fd` - Show diagnostics for current line
+- `<leader>fm` - Format file with LSP
 
 ## Comments
 - `gcc` - Toggle line comment
@@ -128,4 +129,10 @@
 - `<C-b>` - Scroll docs up
 - `<C-f>` - Scroll docs down
 - `<C-Space>` - Trigger completion
-- `<CR>` - Confirm selection 
+- `<CR>` - Confirm selection
+
+## Auto Pairs
+- `<BS>` - Delete pair
+- `<CR>` - New line with pair
+- `<C-h>` - Delete pair (disabled)
+- `<C-w>` - Delete pair (disabled) 
